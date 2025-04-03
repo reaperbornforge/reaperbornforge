@@ -48,15 +48,38 @@
       margin: 40px auto;
       max-width: 600px;
     }
+    .game-highlight a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
     .game-highlight img {
       width: 100%;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+      transition: transform 0.3s;
+    }
+    .game-highlight img:hover {
+      transform: scale(1.02);
     }
     .placeholder {
       font-style: italic;
       color: #888;
       margin-top: 10px;
+    }
+    .btn-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background-color: #e63946;
+      color: white;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-link:hover {
+      background-color: #c92c38;
+      text-decoration: none;
     }
     footer {
       background-color: #111;
@@ -84,10 +107,12 @@
     <h2>🎮 Our Games</h2>
 
     <div class="game-highlight">
-      <img src="banner.jpg" alt="Head Volley Clash Placeholder" />
-      <h3>Head Volley Clash</h3>
-      <p>A 2D volleyball game full of action, customization and fun. Release coming soon for Android.</p>
-      <p><a href="headvolleyclash/privacy.html">Privacy Policy</a></p>
+      <a href="headvolleyclash/index.html">
+        <img src="Icon.png" alt="Head Volley Clash Icon" />
+        <h3>Head Volley Clash</h3>
+        <p>A 2D volleyball game full of action, customization and fun. Release coming soon for Android.</p>
+        <span class="btn-link">Visit Game Page</span>
+      </a>
     </div>
 
     <p class="placeholder">More projects are in development. Stay tuned for future releases.</p>
