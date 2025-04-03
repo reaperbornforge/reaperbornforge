@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,15 +18,14 @@
       border-bottom: 3px solid #222;
     }
     header img {
-      width: 100%;
-      max-width: 900px;
-      border-radius: 0;
-      margin-bottom: 30px;
+      width: 180px;
+      margin-bottom: 20px;
     }
     h1 {
-      font-size: 2.8em;
+      font-size: 2.6em;
       margin: 0;
       color: #e63946;
+      letter-spacing: 1px;
     }
     h2 {
       color: #f1faee;
@@ -44,6 +43,15 @@
     }
     .games {
       background-color: #1a1a1a;
+    }
+    .game-highlight {
+      margin: 40px auto;
+      max-width: 600px;
+    }
+    .game-highlight img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
     }
     .placeholder {
       font-style: italic;
@@ -67,24 +75,32 @@
 </head>
 <body>
   <header>
-    <img src="banner.jpg" alt="Banner Reaperborn Forge" />
+    <img src="logo.png" alt="Reaperborn Forge Logo" />
     <h1>REAPERBORN FORGE</h1>
-    <p>Forjando experiências sombrias, intensas e inesquecíveis.<br />Uma desenvolvedora independente de jogos com alma.</p>
+    <p>We craft immersive, dark, and unforgettable gaming experiences.<br />Independent development forged with soul.</p>
   </header>
 
   <section class="games">
-    <h2>🕹️ Nossos Jogos</h2>
-    <p class="placeholder">Nenhum jogo lançado ainda. Estamos trabalhando duro em experiências épicas que em breve ganharão vida.</p>
+    <h2>🎮 Our Games</h2>
+
+    <div class="game-highlight">
+      <img src="banner.jpg" alt="Head Volley Clash Placeholder" />
+      <h3>Head Volley Clash</h3>
+      <p>A 2D volleyball game full of action, customization and fun. Release coming soon for Android.</p>
+      <p><a href="#">Privacy Policy</a></p>
+    </div>
+
+    <p class="placeholder">More projects are in development. Stay tuned for future releases.</p>
   </section>
 
   <section>
-    <h2>📬 Fale Conosco</h2>
-    <p>Email: <a href="mailto:contato@reaperbornforge.com">contato@reaperbornforge.com</a></p>
+    <h2>📬 Contact</h2>
+    <p>Email: <a href="mailto:contact@reaperbornforge.com">contact@reaperbornforge.com</a></p>
     <p>Instagram: <a href="https://instagram.com">@reaperbornforge</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Reaperborn Forge. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Reaperborn Forge. All rights reserved.</p>
   </footer>
 </body>
 </html>
